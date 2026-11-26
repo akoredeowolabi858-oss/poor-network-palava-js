@@ -1,5 +1,5 @@
-function countPrimes(number) {
-let ccount = 0;
+function Primes(number) {
+let count1 = 0;
 for (count = 1; count <= number; count++) {
     let primeCounter = 0;
     for (counter = 1; counter <= number; counter++) {
@@ -8,11 +8,11 @@ for (count = 1; count <= number; count++) {
             }
         }
      if (primeCounter == 2) {
-        ccount++;
+        count1++;
     }  
     
 }
-return ccount;
+return count1;
 }
 
-console.log(countPrimes(10));
+console.log(Primes(10));
