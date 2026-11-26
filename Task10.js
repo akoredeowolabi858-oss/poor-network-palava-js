@@ -1,6 +1,6 @@
 function isHappy(number){
 let sum = 0;
-	for (counter = 1; counter <= 1000; counter++){
+	for (count = 1; count <= 1000; count++){
 	number = String(number)
 	for (value of number){
 		value = Number(value);
