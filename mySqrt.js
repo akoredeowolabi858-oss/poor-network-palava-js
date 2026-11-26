@@ -1,7 +1,14 @@
 function mySqrt(num){
-	squareRoot = Math.floor(Math.pow(num,0.5))
-	return squareRoot
+    for(let count =1; count<num;  count++){
+        if (count * count > num){
+        return count -1
+        }
+    }
+
+
 }
 
-result = mySqrt(16)
-console.log (result)
+
+
+
+console.log (mySqrt(16));
